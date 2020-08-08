@@ -25,8 +25,8 @@ export class RateItemComponent {
 
     @Output() newRating: EventEmitter<number> = new EventEmitter<number>();
 
-    greyStar:string = 'https://raw.githubusercontent.com/AndreaDiCioccio/NGRX-Store-Demo5-Chain-of-Responsibility/master/src/assets/images/grey-star.jpg'
-    yellowStar:string = 'https://raw.githubusercontent.com/AndreaDiCioccio/NGRX-Store-Demo5-Chain-of-Responsibility/master/src/assets/images/yellow-star.jpg'
+    greyStar:string = 'https://raw.githubusercontent.com/AndreaDiCioccio/NGRX-Chain-of-Responsibility-Demo/master/src/assets/images/grey-star.jpg'
+    yellowStar:string = 'https://raw.githubusercontent.com/AndreaDiCioccio/NGRX-Chain-of-Responsibility-Demo/master/src/assets/images/yellow-star.jpg'
     ratingStars:string[] = [null, null, null, null, null]
 
     isRated:boolean = false
