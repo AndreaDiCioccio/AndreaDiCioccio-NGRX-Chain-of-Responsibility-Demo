@@ -78,8 +78,8 @@ export class ConteinerComponent implements OnInit, OnDestroy{
 
         items.map( item => {
         
-            let count:number = 0 //count rates for every item
-            let totalRate:number = 0 //sum of rates of a item
+            let count:number = 0        // count rates for every item
+            let totalRate:number = 0    //sum of rates of a item
             itemsRating.push(null)
 
             ratings.map( rating => {
@@ -88,7 +88,6 @@ export class ConteinerComponent implements OnInit, OnDestroy{
                     totalRate += rating.rating
                     itemsRating[index] = {...item, rating:totalRate, ratingCount:count}
                 }
-
             })
 
             index++
